@@ -149,7 +149,7 @@ $(function() {
             linkIcon = 'img/base.png';
             break;
             case 'emonpi':
-            linkIcon = 'img/rpi.png';
+            linkIcon = 'img/emonpi.png';
             break;
             case 'smartplug':
             linkIcon = 'img/plug.png';
