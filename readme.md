@@ -1,3 +1,3 @@
 # Find
 
-Find OpenEnergyMonitor devices on your local network.
+An emoncms module to find OpenEnergyMonitor devices on your local network.
