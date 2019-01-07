@@ -14,7 +14,11 @@ function find_controller() {
     if ($session['read']) {
         if ($route->action == "") {
             $route->format = 'html';
-            return view("Modules/find/find_view.php", array());
+            return view("Modules/find/Views/intro.php", array());
+        }
+        if ($route->action == "ok") {
+            $route->format = 'html';
+            return view("Modules/find/Views/find.php", array());
         }
     }
     
