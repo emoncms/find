@@ -4,13 +4,15 @@
 ?>
 
 <section id="intro" class="hero-unit text-center">
+        <p>Find OpenEnergyMonitor devices on your local network</p>
     <h2 id="ip" class="jumbotron-heading">Getting your ip</h2>
     <p id="loader" class="lead">Searching...</p>
 </section>
   
 <section id="list-section" class="text-center">
     <div class="container">
-        <h4>Select your device from the list:</h4>
+
+        <h4>Found devices:</h4>
 
         <template id="list-group-item">
             <li><a href="#" style="color: #666!important"><img><span></span></a></li>
