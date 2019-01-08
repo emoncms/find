@@ -6,7 +6,7 @@
 <section id="intro" class="hero-unit text-center">
     <p class="lead">Find OpenEnergyMonitor devices on your local network</p>
     <h2 id="ip" class="jumbotron-heading">
-        <a href="<?php echo $path ?>find/ok" class="btn btn-success btn-large" target="_blank">SCAN</a>
+        <a href="<?php echo str_replace('https', 'http', $path) ?>find/ok" class="btn btn-success btn-large" target="_blank">SCAN</a>
     </h2>
     
     <p id="loader">This tool scans your local network from your web browser to discover devices with EmonCMS installed.</p>
