@@ -11,20 +11,15 @@ function find_controller() {
     $result = false;
     
     // Read access API's and pages
-    if ($session['read']) {
-        if ($route->action == "") {
-            $route->format = 'html';
-            return view("Modules/find/Views/intro.php", array());
-        }
-        if ($route->action == "ok") {
-            $route->format = 'html';
-            return view("Modules/find/Views/find.php", array());
-        }
+    if ($route->action == "") {
+        $route->format = 'html';
+        return view("Modules/find/Views/intro.php", array());
+    }
+    if ($route->action == "ok") {
+        $route->format = 'html';
+        return view("Modules/find/Views/find.php", array());
     }
     
-    if ($session['write']) {
-        // unused
-    }
     // Pass back result
     return array('content' => $result);
 }
