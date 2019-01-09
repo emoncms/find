@@ -19,6 +19,30 @@ We have created an emoncms module that can be accessed from an existing EmonCMS 
 
 The results are shown in a list along with the IP Address and type of device that returned a response. You can click any found device to access it's control panel.
 
+### Requirements
+These changes will be available with the normal EmonPi and EmonCMS updates. In the mean time you can use the following to test.
+
+#### emonpi
+The device type is set using the [emonpi](https://github.com/openenergymonitor/emonpi) repository. To update the code run the following:
+
+```
+$ cd /home/pi/emonpi
+$ git checkout master
+$ git pull master
+```
+
+#### emoncms
+
+For the device to respond with it's correct type you have to use the master branch of [emoncms](https://github.com/emoncms/emoncms).
+
+```
+$ cd /var/www/emoncms
+$ git checkout master
+$ git pull
+```
+
+
+
 ---
 
 ### TLDR;
@@ -39,3 +63,5 @@ This is written in JavaScript and only ran in the user's browser using a standar
 The module asks for confirmation from the user because it must open another tab changing from `https` to `http`.
 
 This tool does not work using `https` as the local installation of EmonCMS doesn't use TLS to encrypt the communication between the client and server. The ajax requests would fail if done over `https` and no devices would be found.
+
+
