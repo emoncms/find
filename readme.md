@@ -2,7 +2,13 @@
 
 An emoncms module to find OpenEnergyMonitor devices on your local network.
 
-hosted: https://emoncms.org/find
+hosted version: https://emoncms.org/find
+
+## Problem
+We have noticed that sometimes it can be an issue identifiying a device ip address to access the EmonCMS interface. This can be done using a 3rd party app like [fing](https://play.google.com/store/apps/details?id=com.overlook.android.fing) however this is not suitable in some cases where users are not aware of such tools.
+
+## Solution
+We have created an emoncms module that can be accessed from an existing EmonCMS intallation or from [emoncms.org](https://emoncms.org/find) that can scan the local network for devices with EmonCMS installed.
 
 #### This is done in 2 stages.
 
