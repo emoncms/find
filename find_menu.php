@@ -1,7 +1,7 @@
 <?php
 
     $domain = "messages";
-
+    /*
     $menu_dropdown[] = array(
         'id'=>"find_menu_extras",
         'name'=>"Find Local Devices", 
@@ -10,3 +10,4 @@
         'order' => 0,
         'icon'=>'icon-search'
     );
+    */

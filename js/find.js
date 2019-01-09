@@ -129,9 +129,17 @@ $(function() {
 
   $(document).ajaxComplete(function() {
     if (responses.length === requests.length) {
-        console.log(failed)
+      
       // print status
-      $('#loader').text('Finished searching ' + requests.length + ' nodes')
+      $('#loader').text('Finished searching ' + requests.length + ' nodes');
+
+      if (found.length > 0) {
+        document.getElementById('found').classList.remove('d-none');
+        document.getElementById('not-found').classList.add('d-none');
+      } else {
+        document.getElementById('found').classList.add('d-none');
+        document.getElementById('not-found').classList.remove('d-none');
+      }
 
       // print list
       var template = document.getElementById('list-group-item')
