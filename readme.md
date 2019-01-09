@@ -28,7 +28,7 @@ The device type is set using the [emonpi](https://github.com/openenergymonitor/e
 ```
 $ cd /home/pi/emonpi
 $ git checkout master
-$ git pull master
+$ git pull
 ```
 
 #### emoncms
