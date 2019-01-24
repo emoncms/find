@@ -59,6 +59,7 @@ This is written in JavaScript and only ran in the user's browser using a standar
 2. emonbase
 3. emoncms
 4. smartplug
+5. openevse
 
 The module asks for confirmation from the user because it must open another tab changing from `https` to `http`.
 
