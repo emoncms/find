@@ -4,23 +4,23 @@
 ?>
 
 <section id="intro" class="hero-unit text-center">
-    <p>Find OpenEnergyMonitor devices on your local network</p>
-    <h2 id="ip" class="jumbotron-heading">Getting your ip</h2>
-    <p id="loader" class="lead">Searching...</p>
+    <p><?php echo _("Find OpenEnergyMonitor devices on your local network"); ?></p>
+    <h2 id="ip" class="jumbotron-heading"><?php echo _("Getting your ip"); ?></h2>
+    <p id="loader" class="lead"><?php echo _("Searching..."); ?></p>
 </section>
   
 <section id="list-section" class="text-center">
     <div class="container">
 
         <div id="not-found" class="d-none" style="margin-bottom:3rem">
-            <h4>No devices found on your local network!</h4>
-            <p>Ensure the device is online, then click reload:</p>
-            <a href="ok" class="btn btn-large btn-success">Reload</a>
+            <h4><?php echo _("No devices found on your local network!"); ?></h4>
+            <p><?php echo _("Ensure the device is online, then click reload:"); ?></p>
+            <a href="ok" class="btn btn-large btn-success"><?php echo _("Reload"); ?></a>
         </div>
 
 
         <div id="found" class="d-none">
-            <h4>Found devices:</h4>
+            <h4><?php echo _("Found devices:"); ?></h4>
         </div>
         <ul id="list" class="nav nav-tabs nav-stacked text-left" style="display: inline-block"><ul>
         <template id="list-group-item">
