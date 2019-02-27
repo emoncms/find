@@ -4,18 +4,18 @@
 ?>
 
 <section id="intro" class="hero-unit text-center">
-    <p class="lead">Find OpenEnergyMonitor devices on your local network</p>
+    <p class="lead"><?php echo _("Find OpenEnergyMonitor devices on your local network"); ?></p>
     <h2 id="ip" class="jumbotron-heading">
-        <a href="<?php echo str_replace('https', 'http', $path) ?>find/ok" class="btn btn-success btn-large" target="_blank">SCAN</a>
+        <a href="<?php echo str_replace('https', 'http', $path) ?>find/ok" class="btn btn-success btn-large" target="_blank"><?php echo _("SCAN"); ?></a>
     </h2>
     
-    <p id="loader">This tool scans your local network from your web browser to discover devices with EmonCMS installed.</p>
+    <p id="loader"><?php echo _("This tool scans your local network from your web browser to discover devices with EmonCMS installed."); ?></p>
 </section>
 
 <section id="more-details" class="text-center">
     <div class="container text-muted">
-        <h4>More details:</h4>
-        <p>Read more on this process on our <a href="https://github.com/emoncms/find" target="_blank">GitHub pages</a></p>
+        <h4><?php echo _("More details:"); ?></h4>
+        <p><?php echo _("Read more on this process on our <a href='https://github.com/emoncms/find' target='_blank'>GitHub pages</a>"); ?></p>
     </div>
 </section>
 

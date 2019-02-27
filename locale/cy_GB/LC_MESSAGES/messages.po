@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-02-25 12:28+0000\n"
+"PO-Revision-Date: 2019-02-25 12:32+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Views/find.php:7 Views/intro.php:7
+msgid "Find OpenEnergyMonitor devices on your local network"
+msgstr "Yn dod o hyd i ddyfeisiau OpenEnergyMonitor ar eich rhwydwaith lleol"
+
+#: Views/find.php:8
+msgid "Getting your ip"
+msgstr "Yn darganfod eich ip"
+
+#: Views/find.php:9
+msgid "Searching..."
+msgstr "Chwilio ..."
+
+#: Views/find.php:16
+msgid "No devices found on your local network!"
+msgstr "Ni chanfuwyd dyfeisiau ar eich rhwydwaith lleol!"
+
+#: Views/find.php:17
+msgid "Ensure the device is online, then click reload:"
+msgstr "Sicrhewch fod y ddyfais ar-lein, yna cliciwch ar ail-lwytho:"
+
+#: Views/find.php:18
+msgid "Reload"
+msgstr "Ail-lenwi"
+
+#: Views/find.php:23
+msgid "Found devices:"
+msgstr "Dyfeisiau wedi ei darganfod:"
+
+#: Views/intro.php:9
+msgid "SCAN"
+msgstr ""
+
+#: Views/intro.php:12
+msgid ""
+"This tool scans your local network from your web browser to discover devices "
+"with EmonCMS installed."
+msgstr ""
+"Mae'r offeryn hwn yn sganio'ch rhwydwaith lleol o'ch porwr gwe i ddarganfod "
+"dyfeisiau"
+
+#: Views/intro.php:17
+msgid "More details:"
+msgstr "Mwy o fanylion:"
+
+#: Views/intro.php:18
+msgid ""
+"Read more on this process on our <a href='https://github.com/emoncms/find' "
+"target='_blank'>GitHub pages</a>"
+msgstr ""
+"Darllenwch fwy ar y broses hon ar ein <a href='https://github.com/emoncms/"
+"find' target='_blank'>tudalen GitHub</a>"
+
+#: find_menu.php:9
+msgid "Find Local Devices"
+msgstr "Darganfod Dyfais"
