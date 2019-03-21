@@ -24,7 +24,7 @@
 </script>
 
 <style>
-    #intro{
+    /* #intro{
         top: 2.5rem;
         left: 0;
         border-radius: 0;
@@ -32,7 +32,7 @@
         position: absolute;
         height: 7rem;
         padding: 3rem 0;
-    }
+    } */
     #more-details{
         margin-top: 18rem;
     }
