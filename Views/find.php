@@ -3,7 +3,7 @@
     $version = 1;
 ?>
 
-<section id="intro" class="hero-unit text-center">
+<section id="intro" class="hero-unit text-center mt-5">
     <p><?php echo _("Find OpenEnergyMonitor devices on your local network"); ?></p>
     <h2 id="ip" class="jumbotron-heading"><?php echo _("Getting your ip"); ?></h2>
     <p id="loader" class="lead"><?php echo _("Searching..."); ?></p>
@@ -35,7 +35,6 @@
 <script src="<?php echo $path; ?>Modules/find/js/find.js?v=<?php echo $version; ?>"></script>
 
 <style>
-    
     #list li a{
         padding: 1em 2em;
     }

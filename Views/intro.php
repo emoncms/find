@@ -3,7 +3,7 @@
     $version = 1;
 ?>
 
-<section id="intro" class="hero-unit text-center">
+<section id="intro" class="hero-unit text-center mt-5">
     <p class="lead"><?php echo _("Find OpenEnergyMonitor devices on your local network"); ?></p>
     <h2 id="ip" class="jumbotron-heading">
         <a href="<?php echo str_replace('https', 'http', $path) ?>find/ok" class="btn btn-success btn-large" target="_blank"><?php echo _("SCAN"); ?></a>
@@ -24,15 +24,6 @@
 </script>
 
 <style>
-    /* #intro{
-        top: 2.5rem;
-        left: 0;
-        border-radius: 0;
-        width: 100vw;
-        position: absolute;
-        height: 7rem;
-        padding: 3rem 0;
-    } */
     #more-details{
         margin-top: 18rem;
     }
