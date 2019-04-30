@@ -1,6 +1,6 @@
 <?php 
     global $path; 
-    $version = 1;
+    $version = 2;
 ?>
 
 <section id="intro" class="hero-unit text-center mt-5">
