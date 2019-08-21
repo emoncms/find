@@ -3,6 +3,6 @@
 $menu['sidebar']['emoncms'][] = array(
     'text' => _("Find Local Devices"),
     'path' => 'find',
-    'icon' => 'search'
+    'icon' => 'search',
     'order' => 'b61'
 );
