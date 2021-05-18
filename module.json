@@ -1,4 +1,6 @@
 {
     "name"         : "Find",
-    "version"      : "1.0.0"
+    "version"      : "1.0.1",
+    "location"     : "/var/www/emoncms/Modules",
+    "branches_available": ["stable","master"]
 }
